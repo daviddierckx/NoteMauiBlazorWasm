@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NoteMauiBlazorWasm.Common.Components\NoteMauiBlazorWasm.Common.Components.csproj" />
+    <ProjectReference Include="..\NoteMauiBlazorWasm.Common.Component\NoteMauiBlazorWasm.Common.Component.csproj" />
     <ProjectReference Include="..\NoteMauiBlazorWasm.Common\NoteMauiBlazorWasm.Common.csproj" />
   </ItemGroup>
 

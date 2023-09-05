@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-using NoteMauiBlazorWasm.Common.Interfaces;
+﻿using NoteMauiBlazorWasm.Common.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

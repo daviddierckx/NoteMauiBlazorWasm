@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\NoteMauiBlazorWasm.Common.Components\NoteMauiBlazorWasm.Common.Components.csproj" />
-  </ItemGroup>
-
 </Project>

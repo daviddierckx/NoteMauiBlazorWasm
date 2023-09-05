@@ -9,6 +9,10 @@
             <Color x:Key="PageBackgroundColor">#512bdf</Color>
             <Color x:Key="PrimaryTextColor">White</Color>
 
+            <Color x:Key="MainColor">#531064</Color>
+            <Color x:Key="MainColorLight">#72168a</Color>
+
+
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}" />
                 <Setter Property="FontFamily" Value="OpenSansRegular" />

@@ -45,13 +45,14 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="CommunityToolkit.Maui" Version="5.3.0" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
 
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NoteMauiBlazorWasm.Common.Components\NoteMauiBlazorWasm.Common.Components.csproj" />
+      <ProjectReference Include="..\NoteMauiBlazorWasm.Common.Component\NoteMauiBlazorWasm.Common.Component.csproj" />
       <ProjectReference Include="..\NoteMauiBlazorWasm.Common\NoteMauiBlazorWasm.Common.csproj" />
     </ItemGroup>
 

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -16,9 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="NoteMauiBlazorWasm.Common">
-      <HintPath>..\NoteMauiBlazorWasm.Common\obj\Debug\net7.0\NoteMauiBlazorWasm.Common.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\NoteMauiBlazorWasm.Common\NoteMauiBlazorWasm.Common.csproj" />
   </ItemGroup>
 
 </Project>

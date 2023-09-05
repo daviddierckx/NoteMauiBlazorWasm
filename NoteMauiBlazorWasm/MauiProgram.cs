@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 using NoteMauiBlazorWasm.Common.Interfaces;
 using NoteMauiBlazorWasm.Common.Services;
 using NoteMauiBlazorWasm.Data;
@@ -16,7 +17,8 @@ namespace NoteMauiBlazorWasm
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                });
+                })
+                .UseMauiCommunityToolkit();
 
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddTransient<AuthServices>();

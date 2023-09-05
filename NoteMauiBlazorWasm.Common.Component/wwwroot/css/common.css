@@ -1,0 +1,17 @@
+﻿:root{
+    --color-main: #531064;
+    --color-main-light: #e8c7f0;
+    --color-main-lighter: #f9d3ff;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype')
+}
+html, body {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif
+}
+body{
+    background-color: var(--color-main);
+}
+

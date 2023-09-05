@@ -1,6 +1,8 @@
 ﻿@inject NavigationManager NavigationManager
 @inject AuthServices AuthService
-<Router AppAssembly="@typeof(Main).Assembly">
+<CascadingValue Name="@AppConstants.StorageKeys.Username" Value="@_name">
+<Router AppAssembly="@typeof(Main).Assembly"
+                    AdditionalAssemblies="new[]{typeof(HomePage).Assembly}">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
@@ -11,8 +13,10 @@
         </LayoutView>
     </NotFound>
 </Router>
-
+</CascadingValue>
 @code {
+    
+    private string _name = string.Empty;
     protected async override Task OnInitializedAsync()
     {
 
@@ -21,7 +25,10 @@
         {
             return;
         }
+        _name = name;
         //Continue with the app
+
         NavigationManager.NavigateTo("/home");
     }
+   
 }
