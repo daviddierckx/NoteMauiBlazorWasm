@@ -1,0 +1,44 @@
+﻿@inject NavigationManager NavigationManager
+
+<Router AppAssembly="@typeof(Main).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {
+        var name = await SecureStorage.Default.GetAsync(AppConstants.StorageKeys.Username);
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            //Continue the app
+
+
+            int maxRetry = 3;
+            do
+            {
+                name = await App.Current.MainPage.DisplayPromptAsync("Welcome", "Please enter your name");
+            }
+            while (string.IsNullOrWhiteSpace(name) && (--maxRetry) > 0);
+
+
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                await App.Current.MainPage.DisplayAlert("Error", "Your name is required to continue with the app", "OK");
+                return;
+            }
+            //We have username here
+            //Save it to the storage
+            await SecureStorage.Default.SetAsync(AppConstants.StorageKeys.Username, name);
+        }
+        //Continue with the app
+        NavigationManager.NavigateTo("/home");
+    }
+}
