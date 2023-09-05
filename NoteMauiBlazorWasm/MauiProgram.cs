@@ -1,5 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
+using NoteMauiBlazorWasm.Common.Interfaces;
+using NoteMauiBlazorWasm.Common.Services;
 using NoteMauiBlazorWasm.Data;
+using NoteMauiBlazorWasm.Services;
 
 namespace NoteMauiBlazorWasm
 {
@@ -16,6 +19,9 @@ namespace NoteMauiBlazorWasm
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddTransient<AuthServices>();
+            builder.Services.AddSingleton<IAlertService, AlertService>()
+                            .AddSingleton<IStorageService, StorageService>();
 
 #if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();

@@ -1,5 +1,5 @@
 ﻿@inject NavigationManager NavigationManager
-
+@inject AuthServices AuthService
 <Router AppAssembly="@typeof(Main).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
@@ -15,28 +15,34 @@
 @code {
     protected async override Task OnInitializedAsync()
     {
-        var name = await SecureStorage.Default.GetAsync(AppConstants.StorageKeys.Username);
+        // var name = await SecureStorage.Default.GetAsync(AppConstants.StorageKeys.Username);
+        // if (string.IsNullOrWhiteSpace(name))
+        // {
+        //     //Continue the app
+
+
+        //     int maxRetry = 3;
+        //     do
+        //     {
+        //         name = await App.Current.MainPage.DisplayPromptAsync("Welcome", "Please enter your name");
+        //     }
+        //     while (string.IsNullOrWhiteSpace(name) && (--maxRetry) > 0);
+
+
+        //     if (string.IsNullOrWhiteSpace(name))
+        //     {
+        //         await App.Current.MainPage.DisplayAlert("Error", "Your name is required to continue with the app", "OK");
+        //         return;
+        //     }
+        //     //We have username here
+        //     //Save it to the storage
+        //     await SecureStorage.Default.SetAsync(AppConstants.StorageKeys.Username, name);
+        // }
+
+        var name = await AuthService.GetUsername();
         if (string.IsNullOrWhiteSpace(name))
         {
-            //Continue the app
-
-
-            int maxRetry = 3;
-            do
-            {
-                name = await App.Current.MainPage.DisplayPromptAsync("Welcome", "Please enter your name");
-            }
-            while (string.IsNullOrWhiteSpace(name) && (--maxRetry) > 0);
-
-
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                await App.Current.MainPage.DisplayAlert("Error", "Your name is required to continue with the app", "OK");
-                return;
-            }
-            //We have username here
-            //Save it to the storage
-            await SecureStorage.Default.SetAsync(AppConstants.StorageKeys.Username, name);
+            return;
         }
         //Continue with the app
         NavigationManager.NavigateTo("/home");

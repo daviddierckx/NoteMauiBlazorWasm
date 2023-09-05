@@ -1,4 +1,5 @@
 ﻿@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
 <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
@@ -15,7 +16,7 @@
 @code {
     protected async override Task OnInitializedAsync()
     {
-        var name = await SecureStorage.Default.GetAsync(AppConstants.StorageKeys.Username);
+        var name = await JsRuntime.InvokeAsync<string>("window.localStorage.getItem", AppConstants.StorageKeys.Username);
         if (string.IsNullOrWhiteSpace(name))
         {
             //Continue the app
@@ -24,19 +25,19 @@
             int maxRetry = 3;
             do
             {
-                name = await App.Current.MainPage.DisplayPromptAsync("Welcome", "Please enter your name");
+                name = await JsRuntime.InvokeAsync<string>("window.prompt", "Welcome \n Please enter your name");
             }
             while (string.IsNullOrWhiteSpace(name) && (--maxRetry) > 0);
 
 
             if (string.IsNullOrWhiteSpace(name))
             {
-                await App.Current.MainPage.DisplayAlert("Error", "Your name is required to continue with the app", "OK");
+                await JsRuntime.InvokeVoidAsync("window.alert", "Error \n Your name is required to continue");
                 return;
             }
             //We have username here
             //Save it to the storage
-            await SecureStorage.Default.SetAsync(AppConstants.StorageKeys.Username, name);
+            await JsRuntime.InvokeVoidAsync("window.localStorage.setItem", AppConstants.StorageKeys.Username,name);
         }
         //Continue with the app
         NavigationManager.NavigateTo("/home");
