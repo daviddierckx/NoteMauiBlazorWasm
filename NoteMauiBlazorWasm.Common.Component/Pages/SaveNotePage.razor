@@ -1,0 +1,60 @@
+﻿@page "/save"
+@using NoteMauiBlazorWasm.Common.Models;
+
+<EditForm Model="_model" OnValidSubmit="SaveNoteAsync">
+<div class="maui-navbar text-white">
+    <NavLink href="/home" class="text-white text-decoration-none m-0 p-0">
+        <i class="bx bx-x bx-sm"></i>
+    </NavLink>
+        <h5 class="m-0">Save</h5>
+  
+
+    <button type="submit" class="btn btn-default text-white">
+        <i class="bx bx-check bx-sm"></i>
+    </button>
+</div>
+
+<div class="container-fluid">
+    <div class="row min-vh-100" >
+        <div class="col-xxl-5 col-xl-6 col-md-8 col-sm-10 mt-3">
+            <div class="mobile-form-container">
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <InputText @bind-Value="_model.Title" class="form-control border-0 bx-dots-horizontal-rounded-0 fs-4 bg-main-lighter" placeholder="Enter note title" />
+                        <label>Note title...</label>
+                            
+                    </div>
+                        <small>
+                            <ValidationMessage For="()=> _model.Title" />
+                        </small>
+                </div>
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <InputTextArea @bind-Value="_model.Description" 
+                            class="form-control border-0 bx-dots-horizontal-rounded-0 fs-5 bg-main-lighter border-bottom"
+                            rows="5" style="min-height:250px" placeholder="Enter note description" />
+                            <label>Note description...</label>
+                            <small class="bx-code-block text-danger">
+                                <ValidationMessage For="()=> _model.Description" />
+                            </small>
+                        </div>
+                       
+                    </div>
+                    <div class="mb-3 d-grid">
+                        <button type="submit" class="add-note-btn btn-primary bg-main">Save</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</EditForm>
+@code {
+    private Note _model = new();
+
+    private async Task SaveNoteAsync()
+    {
+        
+    }
+}

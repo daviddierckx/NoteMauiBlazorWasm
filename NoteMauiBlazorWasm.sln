@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteMauiBlazorWasm.Web", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteMauiBlazorWasm.Common", "NoteMauiBlazorWasm.Common\NoteMauiBlazorWasm.Common.csproj", "{90CE6DF3-0992-41FF-8545-D3397B15866F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMauiBlazorWasm.Common.Component", "NoteMauiBlazorWasm.Common.Component\NoteMauiBlazorWasm.Common.Component.csproj", "{3905C5C8-658C-421D-87C3-AC032F16DD16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteMauiBlazorWasm.Common.Component", "NoteMauiBlazorWasm.Common.Component\NoteMauiBlazorWasm.Common.Component.csproj", "{3905C5C8-658C-421D-87C3-AC032F16DD16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

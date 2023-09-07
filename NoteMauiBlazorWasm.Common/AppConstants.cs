@@ -11,6 +11,7 @@ namespace NoteMauiBlazorWasm.Common
         public static class StorageKeys
         {
             public const string Username = "username";
+            public const string Notes = "note";
         }
     }
 }

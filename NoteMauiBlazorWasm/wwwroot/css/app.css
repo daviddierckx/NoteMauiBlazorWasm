@@ -23,6 +23,13 @@ html, body {
     z-index: 10;
 }
 
+
+.empty-notes-box-wrapper {
+    
+    height: calc(100vh - var(--navbar-height));
+  
+}
+
 body {
     padding-top: var(--navbar-height);
     background-color: var(--color-main-light);

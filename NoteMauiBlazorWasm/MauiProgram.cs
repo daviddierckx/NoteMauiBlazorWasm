@@ -4,6 +4,7 @@ using NoteMauiBlazorWasm.Common.Interfaces;
 using NoteMauiBlazorWasm.Common.Services;
 using NoteMauiBlazorWasm.Data;
 using NoteMauiBlazorWasm.Services;
+using NoteMauiBlazorWasm.Web.Services;
 
 namespace NoteMauiBlazorWasm
 {
@@ -24,6 +25,8 @@ namespace NoteMauiBlazorWasm
             builder.Services.AddTransient<AuthServices>();
             builder.Services.AddSingleton<IAlertService, AlertService>()
                             .AddSingleton<IStorageService, StorageService>();
+            //Interface kan btw
+            builder.Services.AddSingleton<NotesService>();
 
 #if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
