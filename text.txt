@@ -1,3 +1,6 @@
+Casustoets: Meal Website
+
+
 1. **Voor welke doelgroep is deze website gemaakt volgens jou? Waarom?**
     - Deze website lijkt gericht te zijn op jonge professionals die op zoek zijn naar gezonde maaltijdopties. Dit blijkt uit de keuze van afbeeldingen met actieve mensen, de focus op gezonde voeding en de moderne, strakke vormgeving die aansluit bij de levensstijl van deze doelgroep. Dit sluit aan bij het principe van Lean UX, waarbij de focus ligt op het snel identificeren en voldoen aan de behoeften van de eindgebruiker.
 2. **Stel dat deze website was gemaakt voor doelgroep x, wat zou je dan willen aanpassen aan de website? Waarom?**
@@ -21,3 +24,59 @@
     - Enkele affordances die ik herken op de website zijn de knoppen voor het selecteren van maaltijden, de zoekbalk voor het vinden van specifieke items en de pictogrammen voor het delen op sociale media. Deze affordances nodigen gebruikers uit tot specifieke acties en vergemakkelijken de interactie met de website.
 9. **Beschouw jezelf als reviewer van het design van deze site? Welke feedback zou je geven aan de designer over de gebruikte affordances?**
     - Als reviewer zou ik feedback geven over de consistentie en duidelijkheid van de gebruikte afford
+
+
+
+Casustoets: Hogeschool Website
+
+Stel je voor dat je een student bent die de website van je hogeschool bezoekt. Na het bestuderen van de website, beantwoord je de volgende vragen:
+
+1. Voor welke doelgroep(en) denk je dat deze website is ontworpen? Geef minimaal twee redenen waarom.
+
+Antwoord:
+Deze website is waarschijnlijk ontworpen voor verschillende doelgroepen, waaronder huidige studenten, potentiële studenten, ouders van studenten en academisch personeel. Dit kan worden afgeleid uit de diversiteit aan informatie op de website, zoals cursusinformatie, evenementenkalenders, inschrijvingsinstructies en personeelsprofielen.
+
+2. Stel dat de website primair gericht is op potentiële internationale studenten. Welke aanpassingen zou je voorstellen om de website meer internationaal vriendelijk te maken? Licht je antwoord toe.
+
+Antwoord:
+Als de website zich richt op potentiële internationale studenten, zou ik voorstellen om de informatie beschikbaar te stellen in meerdere talen, zoals Engels en mogelijk andere veelvoorkomende talen onder internationale studenten. Daarnaast zou het nuttig zijn om specifieke secties toe te voegen over visumvereisten, huisvestingsmogelijkheden en ondersteunende diensten voor internationale studenten.
+
+3. Wat is je eerste indruk van de website? Wordt deze verwachting volledig/deels/niet ingelost? Verklaar je antwoord.
+
+Antwoord:
+Mijn eerste indruk van de website is dat deze uitgebreid is en veel informatie biedt. Echter, de navigatie lijkt soms verwarrend en het duurt even voordat ik de gewenste informatie kan vinden. Hierdoor wordt mijn verwachting deels ingelost, omdat de website veel informatie biedt, maar de gebruiksvriendelijkheid kan worden verbeterd.
+
+4. In hoeverre sluit de website aan bij het mentale model van een typische student? Geef voorbeelden om je antwoord te ondersteunen.
+
+Antwoord:
+De website sluit redelijk goed aan bij het mentale model van een typische student, omdat het gebruik maakt van conventionele navigatiestructuren zoals een menu bovenaan de pagina en links naar belangrijke secties op de startpagina. Echter, sommige specifieke informatie zoals roosters of deadlines kunnen prominenter worden weergegeven om beter aan te sluiten bij de verwachtingen van de studenten.
+
+5. Laten we zeggen dat de hogeschool van plan is om de online inschrijvingsprocedure te herzien. Hoe zou je dit aanpakken volgens het Design Thinking proces? Geef per stap aan wat je zou doen en waarom je dat zo zou doen.
+
+Antwoord:
+Om de online inschrijvingsprocedure te herzien volgens het Design Thinking proces, zou ik het volgende doen:
+   - Empathize: Interviews en enquêtes afnemen onder studenten om hun huidige ervaringen met het inschrijvingsproces te begrijpen en mogelijke pijnpunten te identificeren.
+   - Define: Definieer de belangrijkste problemen en doelen van het herontwerp, zoals het verminderen van de complexiteit en het verbeteren van de transparantie.
+   - Ideate: Brainstormsessies houden om mogelijke oplossingen te genereren, zoals een stapsgewijze inschrijvingswizard of een verbeterde gebruikersinterface.
+   - Prototype: Prototypes maken van de voorgestelde oplossingen en deze testen met gebruikers om feedback te verzamelen.
+   - Test: Gebruikerstests uitvoeren om de effectiviteit en bruikbaarheid van de herziene inschrijvingsprocedure te evalueren en verdere aanpassingen aan te brengen.
+
+6. Welke elementen van het MDA-framework kun je identificeren op de website? Beschrijf hoe deze elementen samenwerken om de gebruikerservaring te beïnvloeden.
+
+Antwoord:
+Elementen van het MDA-framework die op de website kunnen worden geïdentificeerd, zijn onder meer de Mechanics (bijv. navigatie, formulieren), Dynamics (bijv. interactieve elementen, animaties) en Aesthetics (bijv. visueel ontwerp, merkconsistentie). Deze elementen werken samen om een naadloze en boeiende gebruikerservaring te creëren.
+
+7. Beschouw jezelf als een gebruikerstester van de website. Wat voor feedback zou je geven over de gebruikerservaring? Onderbouw je antwoord met verwijzingen naar het MDA-framework.
+
+Antwoord:
+Als gebruikerstester zou ik feedback geven over de gebruikerservaring met betrekking tot de navigatie, formulieren en laadtijden van de pagina's. Deze aspecten hebben invloed op de Dynamics van de website en kunnen de algehele ervaring van de gebruiker beïnvloeden. Bijvoorbeeld, trage laadtijden kunnen frustratie veroorzaken, terwijl duidelijke en intuïtieve navigatie de gebruiksvriendelijkheid verbetert.
+
+8. Welke affordances zijn aanwezig op de website en hoe dragen ze bij aan de bruikbaarheid en interactiviteit?
+
+Antwoord:
+Enkele affordances op de website zijn klikbare knoppen, zoekbalken, uitklapmenu's en hyperlinkteksten. Deze affordances maken verschillende acties mogelijk, zoals navigeren naar specifieke pagina's, zoeken naar informatie en interactie met multimedia-inhoud. Ze dragen bij aan de bruikbaarheid en interactiviteit door gebruikers te begeleiden en hen in staat te stellen hun doelen efficiënt te bereiken.
+
+9. Beschouw jezelf als een beoordelaar van het ontwerp van de website. Welke suggesties zou je doen aan de ontwerper om de gebruikte affordances te verbeteren?
+
+Antwoord:
+Als beoordelaar van het ontwerp van de website zou ik feedback geven over de consistentie en duidelijkheid van de gebruikte affordances. Bijvoorbeeld, het zou nuttig zijn om ervoor te zorgen dat alle knoppen en links een consistente stijl hebben en duidelijk aangeven wat er zal gebeuren wanneer erop wordt geklikt. Dit verbetert de voorspelbaarheid en gebruiksvriendelijkheid van de website.
