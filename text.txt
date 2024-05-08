@@ -1,0 +1,23 @@
+1. **Voor welke doelgroep is deze website gemaakt volgens jou? Waarom?**
+    - Deze website lijkt gericht te zijn op jonge professionals die op zoek zijn naar gezonde maaltijdopties. Dit blijkt uit de keuze van afbeeldingen met actieve mensen, de focus op gezonde voeding en de moderne, strakke vormgeving die aansluit bij de levensstijl van deze doelgroep. Dit sluit aan bij het principe van Lean UX, waarbij de focus ligt op het snel identificeren en voldoen aan de behoeften van de eindgebruiker.
+2. **Stel dat deze website was gemaakt voor doelgroep x, wat zou je dan willen aanpassen aan de website? Waarom?**
+    - Als deze website voor ouderen was gemaakt, zou ik de lettergrootte vergroten en de navigatie vereenvoudigen om de gebruiksvriendelijkheid te verbeteren. Ouderen hebben mogelijk moeite met kleine lettertypen en complexe menustructuren. Dit sluit aan bij het principe van Design Thinking, waarbij rekening wordt gehouden met de specifieke behoeften en beperkingen van de doelgroep.
+3. **Wat is je verwachting van deze website als je die opent? Komt die verwachting helemaal/deels/niet uit? Licht toe.**
+    - Bij het openen van deze website verwacht ik een overzicht van gezonde maaltijdopties, gemakkelijke navigatie en mogelijkheid tot direct bestellen of recepten bekijken. Mijn verwachting komt deels uit, omdat de website inderdaad gezonde opties biedt, maar de navigatie kan intuïtiever zijn.
+4. **In hoeverre sluit deze website volgens jou aan bij het mentaal model van de gebruiker? Licht toe.**
+    - Deze website sluit redelijk goed aan bij het mentale model van de gebruiker, omdat het gebruik maakt van bekende navigatiepatronen en visuele elementen die overeenkomen met wat de gebruiker verwacht. Echter, sommige interacties kunnen intuïtiever zijn om beter aan te sluiten bij het mentale model.
+5. **Stel dat we aanpassing x willen doen aan de website, hoe zou je dat dan aanpakken? Houd hierbij in je achterhoofd het Design Thinking proces. Geef per stap aan hoe je die zou uitvoeren en waarom je dat zo zou doen.**
+    - Voor aanpassing x, zoals het verbeteren van de navigatie, zou ik het Design Thinking proces volgen:
+        1. Empathize: Interviews en observaties uitvoeren om te begrijpen welke specifieke problemen gebruikers hebben met de huidige navigatie.
+        2. Define: Definieer het specifieke probleem en stel een duidelijk doel voor de verbetering van de navigatie.
+        3. Ideate: Brainstormsessies houden om mogelijke oplossingen te genereren, zoals het toevoegen van een zoekfunctie of het vereenvoudigen van het menu.
+        4. Prototype: Maak prototypes van de voorgestelde oplossingen en test deze met gebruikers om feedback te verzamelen.
+        5. Test: Voer gebruikerstests uit om de effectiviteit van de aangepaste navigatie te evalueren en eventuele verdere verbeteringen aan te brengen.
+6. **Welke elementen van het MDA framework herken je op de website? Hoe hangen die elementen samen? Wat is het effect daarvan?**
+    - Op de website herken ik de Mechanics in de menustructuur en bestelopties, de Dynamics in de interacties tussen gebruikers en de website, en de Aesthetics in het visuele ontwerp en de emotionele impact ervan. Deze elementen werken samen om een boeiende en gebruiksvriendelijke ervaring te bieden aan de gebruiker.
+7. **Beschouw jezelf als tester van deze site. Welke feedback zou je geven over de 'gameplay' in relatie tot het MDA framework? Waarom?**
+    - Als tester zou ik feedback geven over de 'gameplay' in termen van de balans tussen uitdaging en beloning, de duidelijkheid van de doelen en de responsiviteit van de website op gebruikersacties. Dit is belangrijk omdat het MDA-framework streeft naar een boeiende en bevredigende gebruikerservaring.
+8. **Welke affordances herken je op de website? Licht toe.**
+    - Enkele affordances die ik herken op de website zijn de knoppen voor het selecteren van maaltijden, de zoekbalk voor het vinden van specifieke items en de pictogrammen voor het delen op sociale media. Deze affordances nodigen gebruikers uit tot specifieke acties en vergemakkelijken de interactie met de website.
+9. **Beschouw jezelf als reviewer van het design van deze site? Welke feedback zou je geven aan de designer over de gebruikte affordances?**
+    - Als reviewer zou ik feedback geven over de consistentie en duidelijkheid van de gebruikte afford
